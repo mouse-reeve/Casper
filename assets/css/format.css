@@ -1,4 +1,7 @@
 /* who needs it */
+.site-wrapper {
+    clear: both;
+}
 
 .nav li {
     display: block;
@@ -17,7 +20,7 @@
     background-size: cover;
 }
 
-.author_thumb {
+.author-thumb {
     width: 24px;
     height: 24px;
     float: left;
