@@ -1,1 +1,28 @@
 /* who needs it */
+
+.nav li {
+    display: block;
+    float: left;
+    margin: 1em;
+    list-style: none;
+}
+
+.blog-logo img {
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+.main_header {
+    background-size: cover;
+}
+
+.author_thumb {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 9px;
+    border-radius: 100%;
+}
+
+
