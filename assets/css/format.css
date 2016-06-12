@@ -10,13 +10,17 @@
     list-style: none;
 }
 
+.main-head {
+    min-height: 100px;
+}
+
 .blog-logo img {
     width: 100px;
     display: block;
     float: left;
 }
 
-.main_header {
+.main-header {
     background-size: cover;
 }
 
@@ -28,4 +32,18 @@
     border-radius: 100%;
 }
 
+.author-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    float: left;
+}
 
+.icon-twitter:before {
+    content: "\f602";
+    font-size: 1.1em;
+}
+
+.icon-facebook:before {
+    content: "\f604";
+}
