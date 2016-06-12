@@ -10,6 +10,11 @@
     font-style: normal;
 }
 
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
 .site-wrapper {
     clear: both;
 }
@@ -48,6 +53,13 @@
     height: 120px;
     border-radius: 100%;
     float: left;
+}
+
+.post {
+    max-width: 45em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
 }
 
 .icon-twitter:before {
