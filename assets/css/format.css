@@ -30,11 +30,16 @@ h1, h2, h3, h4 {
     width: 100px;
     display: block;
     float: left;
+    margin-right: 1em;
 }
 
 .main-header {
     background-size: cover;
     min-height: 100px;
+}
+
+.post-header {
+    float: left;
 }
 
 .author-thumb {
@@ -51,6 +56,16 @@ h1, h2, h3, h4 {
     border-radius: 100%;
     float: left;
     background-size: cover;
+    margin-right: 1em;
+}
+
+.author {
+    overflow: hidden;
+}
+
+.share {
+    clear: both;
+    margin-top: 1em;
 }
 
 .post {
@@ -69,10 +84,10 @@ h1, h2, h3, h4 {
     content: "\f602";
     font-size: 1.1em;
     font-family: "casper-icons";
-    margin-right: 1em;
 }
 
 .icon-facebook:before {
     content: "\f604";
     font-family: "casper-icons";
+    margin-left: 1em;
 }
