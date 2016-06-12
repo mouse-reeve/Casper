@@ -26,10 +26,6 @@ h1, h2, h3, h4 {
     list-style: none;
 }
 
-.main-head {
-    min-height: 100px;
-}
-
 .blog-logo img {
     width: 100px;
     display: block;
@@ -38,6 +34,7 @@ h1, h2, h3, h4 {
 
 .main-header {
     background-size: cover;
+    min-height: 100px;
 }
 
 .author-thumb {
@@ -48,11 +45,12 @@ h1, h2, h3, h4 {
     border-radius: 100%;
 }
 
-.author-image {
+.author-image .img {
     width: 120px;
     height: 120px;
     border-radius: 100%;
     float: left;
+    background-size: cover;
 }
 
 .post {
@@ -62,11 +60,19 @@ h1, h2, h3, h4 {
     margin-bottom: 2em;
 }
 
+.post-meta {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
 .icon-twitter:before {
     content: "\f602";
     font-size: 1.1em;
+    font-family: "casper-icons";
+    margin-right: 1em;
 }
 
 .icon-facebook:before {
     content: "\f604";
+    font-family: "casper-icons";
 }
