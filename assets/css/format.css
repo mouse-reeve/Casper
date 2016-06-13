@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
-.page-description {
+.page-description, .author-bio {
     color: #c0c0c0;
 }
 
@@ -136,4 +136,16 @@ h1, h2, h3, h4 {
     content: "\f604";
     font-family: "casper-icons";
     margin-left: 1em;
+}
+
+.icon-location:before {
+    content: "\f607";
+    font-family: "casper-icons";
+    margin-left: -3px;
+}
+
+.icon-stats:before {
+    content: "\f606";
+    font-family: "casper-icons";
+    margin-left: -3px;
 }
