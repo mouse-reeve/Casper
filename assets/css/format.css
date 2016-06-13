@@ -82,6 +82,10 @@ h1, h2, h3, h4 {
     overflow: hidden;
 }
 
+.author-meta {
+    margin-bottom: 2em;
+}
+
 .author-meta span {
     margin-right: 1em;
 }
