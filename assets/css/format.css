@@ -122,6 +122,10 @@ h1, h2, h3, h4 {
     margin-left: 0.2em;
 }
 
+.post-content pre {
+    overflow: scroll;
+}
+
 .icon-twitter:before {
     content: "\f602";
     font-size: 1.1em;
