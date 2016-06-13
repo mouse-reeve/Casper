@@ -82,6 +82,14 @@ h1, h2, h3, h4 {
     overflow: hidden;
 }
 
+.author-meta span {
+    margin-right: 1em;
+}
+
+.author-meta span:last-child {
+    margin-right: 0;
+}
+
 .share {
     clear: both;
     margin-top: 1em;
@@ -148,4 +156,29 @@ h1, h2, h3, h4 {
     content: "\f606";
     font-family: "casper-icons";
     margin-left: -3px;
+}
+
+.icon-ghost:before {
+    content: "\f600";
+    font-family: "casper-icons";
+}
+
+.icon-feed:before {
+    content: "\f601";
+    font-family: "casper-icons";
+}
+
+.icon-arrow-left:before {
+    content: "\f605";
+    font-family: "casper-icons";
+}
+
+.icon-link:before {
+    content: "\f608";
+    font-family: "casper-icons";
+}
+
+.icon-menu:before {
+    content: "\f609";
+    font-family: "casper-icons";
 }
