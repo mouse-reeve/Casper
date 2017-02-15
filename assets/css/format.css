@@ -194,5 +194,7 @@ p {
 }
 
 .header-image {
-    height: 4em;
+    width: 10em;
+    float: left;
+    margin-right: 1em;
 }
