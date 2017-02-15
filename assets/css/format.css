@@ -18,10 +18,10 @@
 
 h1, h2, h3, h4 {
     font-family: sans-serif;
-    text-transform: uppercase;
 }
 
 .page-description, .author-bio {
+    text-transform: uppercase;
     color: #c0c0c0;
 }
 
@@ -127,6 +127,7 @@ h1, h2, h3, h4 {
 
 .post-content img {
     width: 100%;
+    margin: 0;
 }
 
 .post-content blockquote {
@@ -186,4 +187,12 @@ h1, h2, h3, h4 {
 .icon-menu:before {
     content: "\f609";
     font-family: "casper-icons";
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.header-image {
+    height: 4em;
 }
