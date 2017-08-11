@@ -44,7 +44,7 @@ p, pre {
     font-size: 1.2em;
 }
 
-.post-card-content pre {
+.post-full pre {
     overflow: scroll;
 }
 
