@@ -1,6 +1,3 @@
 # Untheme
 
-A non-theme for blogging with ghost. Example: https://blog.mousereeve.com/
-
-### Install
-This depends on your ghost configuration and setup - I like this [DigitalOcean guide](https://www.digitalocean.com/community/tutorials/how-to-change-themes-and-adjust-settings-in-ghost), but make sure to find instructions that fit your particular install.
+This is a totally gutted ghost theme based on capser. It looks pretty crap, if you're into that. I know I am.
