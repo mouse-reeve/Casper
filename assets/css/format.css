@@ -127,3 +127,11 @@ p, pre {
 .read-next-feed {
     margin: 2em auto;
 }
+
+.read-next-card-header-title {
+    font-weight: normal;
+}
+
+.read-next-card-content ul {
+    margin: 1em 2em;
+}
