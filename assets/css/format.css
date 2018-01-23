@@ -5,8 +5,16 @@
     font-family: Garamond, Georgia, serif;
 }
 
+.site-nav-left {
+    float: left;
+}
+
 .site-nav-right, .social-links {
     float: right;
+}
+
+.site-nav {
+    padding-bottom: 5em;
 }
 
 .site-header-content {
@@ -82,6 +90,10 @@ svg {
 .author-profile-image {
     float: left;
     margin-right: 1em;
+}
+
+.post-card {
+    margin-bottom: 3em;
 }
 
 .post-card, .post-full {

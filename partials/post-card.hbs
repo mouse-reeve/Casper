@@ -17,9 +17,9 @@
             {{#if author.profile_image}}
                 <img class="author-profile-image" src="{{author.profile_image}}" alt="{{author.name}}" />
             {{/if}}
-            By <span class="post-card-author">{{author}}</span> {{#if primary_tag}} in
-                    <span class="post-card-tags">{{primary_tag.name}}</span>
-                {{/if}}
+            {{#if primary_tag}} in
+                <span class="post-card-tags">{{primary_tag.name}}</span>
+            {{/if}}
         </footer>
     </div>
 </article>
